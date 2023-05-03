@@ -1,0 +1,11 @@
+name = input("enter your name : ")
+number1 = float(input("nomre 1 : "))
+number2 = float(input("nomre 2 : "))
+number3 = float(input("nomre 3 : "))
+average = (number1 + number2 + number3) / 3
+if average >= 17:
+    print("great")
+if average >= 12:
+    print("good")
+else:
+    print("fail")
